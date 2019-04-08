@@ -6,9 +6,33 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
-    </div>
+
+      <h1>Bienvenido a xxxxxxx</h1>
+
+      <p>Ingresa tu texto aqui para empezar a cifrar</p>
+
+      <div>
+          <input id="cifrarTexto" type="text" name="cifrarText" placeholder="Texto a cifrar">
+      </div>
+
+      <div>
+          <input id="offset" type="int" name="desplazamiento" placeholder="clave">
+      </div>
+
+      <div>
+          <button id="btn_cifrar">Cifrar</button>
+          <button id="btn_descifrar">Descifrar</button>
+      </div>
+
+      <div>
+          <input id="textoCifrado" type="text" name="textoCifrado" placeholder="Texto cifrado">
+      </div>
+
+
+      <div>
+          <button id="limpiar">Limpiar</button>
+      </div>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
