@@ -1,1 +1,100 @@
-/* Acá va tu código */
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One|Cinzel+Decorative|Coda|Share');
+
+
+body {
+background-image: url("https://png2.kisspng.com/sh/0267ee881565344893ec59728de6e626/L0KzQYi4UsA4N2E6TZGAYUK8SYW7gvE1OZI7UJC9N0G5SIm8VME2OWM7T6Y8N0m5R4O5TwBvbz==/5a29944ba41a68.4716885415126743796722.png");
+background-size: cover;
+background-color:black;
+text-align: center;
+}
+
+
+h1{
+color: #C49D4B;
+font-family: 'Black Ops One', cursive;
+text-shadow: 0.02em 0.02em #D4B163;
+text-align: center;
+padding-top: 1em;
+font-size: 5em;
+padding-bottom: 0%;
+}
+
+h2{
+color: #CBA553;
+font-family: 'Share', cursive;
+padding-top: 0%;
+text-decoration: underline;
+}
+
+
+
+p{
+font-family: 'Share', cursive;
+color: #CBA553;
+text-align: center;
+
+}
+
+
+#cifrarTexto{
+    border-radius: 5px;
+    background-color: #E8CA83;
+    border: 0;
+    padding: 1em;
+    width: 200px;
+    height: 15px;
+}
+
+#textoCifrado{
+
+    border-radius: 5px;
+    background-color: #E8CA83;
+    border: 0;
+    box-sizing: 2em;
+    padding: 1em;
+    width: 200px;
+    height: 15px;
+}
+
+#offset{
+    border-radius: 5px;
+    background-color: #E8CA83;
+    border: 0;
+    box-sizing: 2em;
+    width: 70px;
+    height: 15px;
+    
+}
+
+#offset::placeholder {
+    text-align: center;
+ }
+
+ #textoCifrado::placeholder {
+    text-align: center;
+ } 
+
+ #cifrarTexto::placeholder {
+    text-align: center;
+ }
+
+ #btn_cifrar{
+    background: transparent;
+    color: #BB9139;
+    border: 2px solid #BB9139;
+    border-radius: 6px;
+ }
+
+ #btn_descifrar{
+    background: transparent;
+    color: #BB9139;
+    border: 2px solid #BB9139;
+    border-radius: 6px;
+ }
+
+ #limpiar{
+    background: transparent;
+    color: #BB9139;
+    border: 2px solid #BB9139;
+    border-radius: 6px;
+ }

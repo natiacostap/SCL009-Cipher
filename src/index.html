@@ -5,33 +5,37 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+  <h1>UnderCode</h1>
   <body>
-
-      <h1>Bienvenido a xxxxxxx</h1>
-
-      <p>Ingresa tu texto aqui para empezar a cifrar</p>
+    
+      <h2>Pasos para crear tu mensaje</h3>
+      <p> 1.- Ingresa el texto que desees<br>
+          2.- Ingresa una clave numérica <br>
+          3.- Selecciona Cifrar o Descifrar <br>
+          4.- Copia tu mensaje YA resuelto <br>
+      </p><br>
 
       <div>
-          <input id="cifrarTexto" type="text" name="cifrarText" placeholder="Texto a cifrar">
-      </div>
+          <input id="cifrarTexto" type="text"name="cifrarText" placeholder="Escribe tu mensaje aquí">
+      </div><br>
 
       <div>
-          <input id="offset" type="int" name="desplazamiento" placeholder="clave">
-      </div>
+          <input id="offset" type="int" name="desplazamiento" placeholder="clave n°">
+      </div><br>
 
       <div>
           <button id="btn_cifrar">Cifrar</button>
           <button id="btn_descifrar">Descifrar</button>
-      </div>
+      </div><br>
 
       <div>
-          <input id="textoCifrado" type="text" name="textoCifrado" placeholder="Texto cifrado">
-      </div>
+          <input id="textoCifrado" type="text" name="textoCifrado" placeholder="Resultado">
+      </div><br>
 
 
       <div>
           <button id="limpiar">Limpiar</button>
-      </div>
+      </div><br>
 
     <script src="cipher.js"></script>
     <script src="index.js"></script>
