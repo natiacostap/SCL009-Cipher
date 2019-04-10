@@ -30,3 +30,11 @@ Nuestra interfaz permite a los usuarios:
 - Resetear interfaz.
 
 
+La paleta de colores elegida esta basada en negro y dorado para darle un estilo mas _underground_, pero a la vez _exclusivo_ .
+
+![interfaz de usuario](https://png2.kisspng.com/sh/0267ee881565344893ec59728de6e626/L0KzQYi4UsA4N2E6TZGAYUK8SYW7gvE1OZI7UJC9N0G5SIm8VME2OWM7T6Y8N0m5R4O5TwBvbz==/5a29944ba41a68.4716885415126743796722.png)
+
+
+
+
+
